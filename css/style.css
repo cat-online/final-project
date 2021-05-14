@@ -1,0 +1,90 @@
+body{
+    margin: 0%;
+}
+
+.header, .about-section{
+    background-color: #E2C2B3;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav{
+    overflow: hidden;
+    background-color: #403234;
+    text-align: center;
+}
+
+.nav a{
+   float: left;
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+}
+
+.nav a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+.nav a:visited{
+    color: #687477;
+}
+
+.column{
+    float: left;
+    padding: 10px;
+    background-color: white;
+}
+
+.column.side{
+    width: 25%;
+}
+
+.column.middle{
+    width: 50%;
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column.side, .column.middle{
+    width: 100%;
+}
+
+.footer{
+    background-color: #E2C2B3;
+    padding: 30px;
+    text-align: center;
+}
+
+.img-sheet, .choco-berry, .thanksgiving{
+    width: 200px;
+    height: 220px;
+    
+}
+
+.jello, .number-cake, .hooty, .choco-vanilla, .cookie-mon{
+    width: 200px;
+    height: 205px;
+}
+
+.the-grinch{
+    width: 140px;
+}
+
+.fab{
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.cousins{
+    width: 400px;
+}
